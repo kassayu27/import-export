@@ -23,9 +23,6 @@ const Layout = () => {
                 Our global logistics expertise, advanced supply chain technology
                 &amp; customized logistics solutions
               </div>
-              <a href="page-service-details.html" className="read-more">
-                <i className="fa fa-plus" />
-              </a>
             </div>
           </div>
           <div className="service-block-three">
@@ -37,9 +34,6 @@ const Layout = () => {
                 Our global logistics expertise, advanced supply chain technology
                 &amp; customized logistics solutions
               </div>
-              <a href="page-service-details.html" className="read-more">
-                <i className="fa fa-plus" />
-              </a>
             </div>
           </div>
           <div className="service-block-three">
@@ -51,9 +45,6 @@ const Layout = () => {
                 Our global logistics expertise, advanced supply chain technology
                 &amp; customized logistics solutions
               </div>
-              <a href="page-service-details.html" className="read-more">
-                <i className="fa fa-plus" />
-              </a>
             </div>
           </div>
           <div className="service-block-three">
@@ -111,23 +102,24 @@ const Layout = () => {
         >
           <div className="inner-column">
             <div className="sec-title">
-              <span className="sub-title">Request a Quote</span>
               <h2 className="words-slide-up text-split">
-                We Create Opportunity to Reach Potential
+              Why you choose us?
               </h2>
               <div className="text">
-                adipiscing elit. Aliquam vulputate, tortor ne c commodo ultri
-                viverra Sus faucibus sed dolor eget posuere Sed id urna.
+              Kegeberew Export has a focus on the agriculture sector and uses a range of distribution methods, such as 
+              international trade and e-commerce. We are aggressively working to improve Ethiopia's agricultural 
+              sector through agro-processing and the application of new technologies. Building a solid, long-term
+               relationship with farmers, producers, and purchasers is our top goal.
               </div>
             </div>
             <div className="row">
               <div className="about-block-three col-lg-6 col-md-6 col-sm-6">
                 <div className="inner-box">
                   <i className="icon flaticon-air-freight" />
-                  <h5 className="title">Transparent Pricing</h5>
-                  <div className="text">
-                    Following the quality of our service thus having gained
-                    trust of our many clients.
+                  <h5 className="title">Quality services</h5>
+                  <div className="text-justify-custom leading-relaxed hyphens-auto  word-spacing: 1px;">
+                  <i>KEx is an Africa-based trade system and expanding to the international markets 
+                  by promoting high quality organic agricultural products at a competative price.</i>
                   </div>
                 </div>
               </div>
@@ -136,8 +128,11 @@ const Layout = () => {
                   <i className="icon flaticon-order" />
                   <h5 className="title">Fast, Efficient Delivery</h5>
                   <div className="text">
-                    Following the quality of our service thus having gained
-                    trust of our many clients.
+                  <ul>
+                   <li><img src="/images/tick.webp" alt="Logo" className='w-9 h-9'/>Expert team members</li>
+                   <li><img src="/images/tick.webp" alt="Logo" className='w-9 h-9'/>Afordable quality services</li>
+                   <li><img src="/images/tick.webp" alt="Logo" className='w-9 h-9'/>Quality Products</li>
+                   </ul> 
                   </div>
                 </div>
               </div>
@@ -164,15 +159,118 @@ const Layout = () => {
       </div>
     </div>
   </section>
-  <section className="services-section-three">
+  <section>
+     <div className='text-center'>
+        <h2>
+         Our Import & Export Products
+        </h2>
+      </div>
+  </section>
+  <section className="services-section-three thisone">
     <div className="icon-container-2" />
     <div className="auto-container">
       <div className="sec-title text-center">
-        <span className="sub-title">
-          Customer Teams &amp; An Agile Services
-        </span>
-        <h2 className="words-slide-up text-split">
-          Specialist logistics services
+        <h2 className="words-slide-up text-split text-white ">
+          Export Items
+        </h2>
+      </div>
+      <div className="outer-box">
+        <div className="service-carousel owl-carousel owl-theme default-dots-two">
+          <div className="service-block-three">
+            <div className="inner-box">
+              <div className="bg-line" />
+              <i className="icon flaticon-air-freight" />
+              <h4 className="title">Air Freight</h4>
+              <div className="text">
+                Our global logistics expertise, advanced supply chain technology
+                &amp; customized logistics solutions
+              </div>
+              <a href="page-service-details.html" className="read-more">
+                <i className="fa fa-plus" />
+              </a>
+            </div>
+          </div>
+          <div className="service-block-three">
+            <div className="inner-box">
+              <div className="bg-line" />
+              <i className="icon flaticon-cargo-boat" />
+              <h4 className="title">Ocean Freight</h4>
+              <div className="text">
+                Our global logistics expertise, advanced supply chain technology
+                &amp; customized logistics solutions
+              </div>
+              <a href="page-service-details.html" className="read-more">
+                <i className="fa fa-plus" />
+              </a>
+            </div>
+          </div>
+          <div className="service-block-three">
+            <div className="inner-box">
+              <div className="bg-line" />
+              <i className="icon flaticon-truck" />
+              <h4 className="title">Road Freight</h4>
+              <div className="text">
+                Our global logistics expertise, advanced supply chain technology
+                &amp; customized logistics solutions
+              </div>
+              <a href="page-service-details.html" className="read-more">
+                <i className="fa fa-plus" />
+              </a>
+            </div>
+          </div>
+          <div className="service-block-three">
+            <div className="inner-box">
+              <div className="bg-line" />
+              <i className="icon flaticon-air-freight" />
+              <h4 className="title">Air Freight</h4>
+              <div className="text">
+                Our global logistics expertise, advanced supply chain technology
+                &amp; customized logistics solutions
+              </div>
+              <a href="page-service-details.html" className="read-more">
+                <i className="fa fa-plus" />
+              </a>
+            </div>
+          </div>
+          <div className="service-block-three">
+            <div className="inner-box">
+              <div className="bg-line" />
+              <i className="icon flaticon-cargo-boat" />
+              <h4 className="title">Ocean Freight</h4>
+              <div className="text">
+                Our global logistics expertise, advanced supply chain technology
+                &amp; customized logistics solutions
+              </div>
+              <a href="page-service-details.html" className="read-more">
+                <i className="fa fa-plus" />
+              </a>
+            </div>
+          </div>
+          <div className="service-block-three">
+            <div className="inner-box">
+              <div className="bg-line" />
+              <i className="icon flaticon-truck" />
+              <h4 className="title">Road Freight</h4>
+              <div className="text">
+                Our global logistics expertise, advanced supply chain technology
+                &amp; customized logistics solutions
+              </div>
+              <a href="page-service-details.html" className="read-more">
+                <i className="fa fa-plus" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+{/* Import items*/}
+
+     <div className="icon-container-2" />
+    <div className="auto-container">
+      <div className="sec-title text-center">
+        <h2 className="words-slide-up text-split text-white ">
+          Import Items
         </h2>
       </div>
       <div className="outer-box">
@@ -265,72 +363,13 @@ const Layout = () => {
       </div>
     </div>
   </section>
-  <section className="why-choose-us-two pt-0">
-    <div className="icon-bus-2" />
-    <div className="auto-container">
-      <div className="outer-box">
-        <div
-          className="bg bg-image"
-          style={{ backgroundImage: "url(images/banner/2.jpg)" }}
-        />
-        <div className="icon-plane-3" />
-        <div className="row">
-          <div className="content-column col-xl-4 col-lg-6 col-md-12 col-sm-12 wow fadeInLeft">
-            <div className="inner-column">
-              <div className="sec-title light">
-                <span className="sub-title">
-                  Customer Teams &amp; An Agile Services
-                </span>
-                <h2 className="words-slide-up text-split">
-                  We give you complete <br />
-                  controlon shipments
-                </h2>
-                <div className="text">
-                  adipiscing elit. Aliquam vulputate, tortor <br />
-                  nec commodo ultri viverra Suspendisse <br />
-                  faucibus sed dolor eget posuere Sed id <br />
-                  urna. Nam ac elit.
-                </div>
-              </div>
-              <ul className="feature-list">
-                <li>Devario deep sea bonefish cutthroat</li>
-                <li>Turkeyfish golden loach sand diver</li>
-                <li>lightfish longfin smelt pickerel houndshark</li>
-              </ul>
-              <ul className="feature-icon">
-                <li>
-                  <i className="icon flaticon-air-freight" />
-                </li>
-                <li>
-                  <i className="icon flaticon-truck" />
-                </li>
-                <li>
-                  <i className="icon flaticon-shipping" />
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div className="image-column col-xl-8 col-lg-6 col-md-12 col-sm-12">
-            <div className="inner-column">
-              <figure className="image reveal overlay-anim">
-                <img src="images/resource/choose2-1.jpg" alt="Image" />
-              </figure>
-              <figure className="image-2 wow zoomIn overlay-anim">
-                <img src="images/resource/choose2-2.jpg" alt="Image" />
-              </figure>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
   <section className="clients-section">
     <div className="icon-container-3" />
     <div className="auto-container">
       <div className="sec-title text-center">
-        <span className="sub-title">happy client and sponsor</span>
+        <span className="sub-title">Happy client and sponsor</span>
         <h2 className="words-slide-up text-split">
-          Trusted By Our 365,000 Clients
+          Trusted By Our Clients
         </h2>
       </div>
       <div className="sponsors-outer">
@@ -987,40 +1026,6 @@ const Layout = () => {
               </a>
             </div>
           </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section className="call-to-action pt-0">
-    <div className="icon-man" />
-    <div className="icon-plane-4 bounce-y" />
-    <div className="icon-arrow" />
-    <div className="auto-container">
-      <div className="outer-box">
-        <div className="bg bg-pattern-1" />
-        <div className="content-box">
-          <h2 className="title words-slide-up text-split">
-            24/7 customer support any time of the day or night
-          </h2>
-          <div className="text">
-            customers can get help and find answers to questions as soon
-          </div>
-          <div className="btn-box">
-            <a href="page-contact.html" className="theme-btn btn-style-one">
-              <span className="btn-title">Request a Quote</span>
-            </a>
-            <a
-              href="page-contact.html"
-              className="theme-btn btn-style-one light-bg"
-            >
-              <span className="btn-title">Contact Us</span>
-            </a>
-          </div>
-        </div>
-        <div className="image-box">
-          <figure className="image reveal">
-            <img src="images/resource/cta1-1.png" alt="Image" />
-          </figure>
         </div>
       </div>
     </div>

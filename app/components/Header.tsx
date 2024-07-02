@@ -232,9 +232,118 @@ const Header = () => {
           </div>
           <div className="nav-outer">
             <nav className="main-menu">
-              <div className="navbar-collapse show collapse clearfix">
-                <ul className="navigation clearfix"></ul>
-              </div>
+            <ul className="navigation">
+                <li className="current dropdown">
+                  <a href="index.html">Home</a>
+                  <ul>
+                    <li>
+                      <a href="index-3.html">Home 03</a>
+                    </li>
+                    <li className="dropdown">
+                      <a href="#">Header Styles</a>
+                      <ul>
+                        <li>
+                          <a href="index.html">Header Style One</a>
+                        </li>
+                        <li>
+                          <a href="index-2.html">Header Style Two</a>
+                        </li>
+                        <li>
+                          <a href="index-3.html">Header Style Three</a>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+                <li className="dropdown">
+                  <a href="#">Pages</a>
+                  <ul>
+                    <li>
+                      <a href="page-about.html">About</a>
+                    </li>
+                    <li className="dropdown">
+                      <a href="#">Projects</a>
+                      <ul>
+                        <li>
+                          <a href="page-projects.html">Projects List</a>
+                        </li>
+                        <li>
+                          <a href="page-project-details.html">
+                            Project Details
+                          </a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li className="dropdown">
+                      <a href="#">Team</a>
+                      <ul>
+                        <li>
+                          <a href="page-team.html">Team List</a>
+                        </li>
+                        <li>
+                          <a href="page-team-details.html">Team Details</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li className="dropdown">
+                      <a href="#">Shop</a>
+                      <ul>
+                        <li>
+                          <a href="shop-products.html">Products</a>
+                        </li>
+                        <li>
+                          <a href="shop-products-sidebar.html">
+                            Products with Sidebar
+                          </a>
+                        </li>
+                        <li>
+                          <a href="shop-product-details.html">
+                            Product Details
+                          </a>
+                        </li>
+                        <li>
+                          <a href="shop-cart.html">Cart</a>
+                        </li>
+                        <li>
+                          <a href="shop-checkout.html">Checkout</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a href="page-testimonial.html">Testimonial</a>
+                    </li>
+                    <li>
+                      <a href="page-pricing.html">Pricing</a>
+                    </li>
+                   
+                  </ul>
+                </li>
+                <li className="dropdown">
+                  <a href="#">Services</a>
+                  <ul>
+                    <li>
+                      <a href="page-services.html">Services</a>
+                    </li>
+                    <li>
+                      <a href="page-service-details.html">Services Details</a>
+                    </li>
+                  </ul>
+                </li>
+                <li className="dropdown">
+                  <a href="#">News</a>
+                  <ul>
+                    <li>
+                      <a href="news-grid.html">News Grid</a>
+                    </li>
+                    <li>
+                      <a href="news-details.html">News Details</a>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="page-contact.html">Contact</a>
+                </li>
+              </ul>
             </nav>
             <div className="mobile-nav-toggler">
               <span className="icon lnr-icon-bars" />
